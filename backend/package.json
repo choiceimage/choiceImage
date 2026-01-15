@@ -1,0 +1,14 @@
+{
+    "name": "backend",
+    "private": true,
+    "type": "module",
+    "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+    },
+    "dependencies": {
+    "hono": "^4",
+    "@hono/node-server": "^1",
+    "dotenv": "^16"
+    }
+    }
